@@ -28,6 +28,7 @@ echo "Added 'code' command to the command line on zsh"
 # Flutter extensions
 code --install-extension marcelovelasquez.flutter-tree
 code --install-extension Dart-Code.flutter
+code --install-extension alexisvt.flutter-snippets
 
 # GitHub
 code --install-extension GitHub.copilot
