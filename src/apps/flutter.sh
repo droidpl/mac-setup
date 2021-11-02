@@ -33,6 +33,7 @@ cat << EOF >> ~/.zshrc_local
 export PATH="/usr/local/share/android-sdk:\$PATH"
 export PATH="/usr/local/share/android-sdk/platform-tools:\$PATH"
 export ANDROID_HOME="/usr/local/share/android-sdk:\$PATH"
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk
 EOF
 source ~/.zshrc_local
 mkdir -p ~/.android
