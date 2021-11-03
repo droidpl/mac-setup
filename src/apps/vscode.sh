@@ -35,3 +35,13 @@ code --install-extension GitHub.copilot
 
 # Code style
 code --install-extension aaron-bond.better-comments
+
+# Language extensions (python, go, rust, java...)
+code --install-extension ms-python.python
+code --install-extension golang.go
+code --install-extension rust-lang.rust
+code --install-extension ms-azuretools.vscode-docker
+code --install-extension ecmel.vscode-html-css
+
+# Install stripe extension
+code --install-extension stripe.vscode-stripe
