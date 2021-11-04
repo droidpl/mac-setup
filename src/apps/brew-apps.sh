@@ -28,7 +28,7 @@ brew install sbt ansible rbenv ruby-build go python
 # Utils
 echo "Installing utilities..."
 brew install tldr
-
+brew install ngrok
 
 cat << "EOF"
 
