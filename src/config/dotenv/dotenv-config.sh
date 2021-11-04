@@ -18,6 +18,7 @@ rm -rf ~/.zshrc ~/dotfiles
 git clone git@github.com:droidpl/dotfiles.git ~/environment
 cp -rf ~/environment/dotfiles ~/dotfiles
 cp -rf ~/environment/.zshrc ~/.zshrc
+cp -rf ~/environment/.vscode ~/.vscode
 
 # Remove previous folders
 rm -rf ~/environment
