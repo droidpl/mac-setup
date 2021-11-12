@@ -45,7 +45,7 @@ EOF
 echo "Now we will import the GPG keys from keybase. Make sure you have logged in into the Keybase account in the machine"
 read -p "Press enter to continue..."
 keybase pgp export | gpg --import
-keybase pgp export --secret | gpg --import --allow-secret-key-importccccccujdcicknuvukihukfjelfdrrdtekjjbtjlbdik
+keybase pgp export --secret | gpg --import --allow-secret-key-import
 
 # Get key id
 export GPG_KEY=$(gpg --list-signatures --with-colons | grep "pub" | head -n 1 | cut -d':' -f5)
